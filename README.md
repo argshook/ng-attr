@@ -4,7 +4,7 @@
 
 Directive for Angular 1.x for dynamic element attributes
 
-Somewhat similar to `ng-class` buf to attributes.
+Somewhat similar to `ng-class` but for attributes.
 
 Given:
 
@@ -22,7 +22,7 @@ angular
 will be compiled to
 
 ```html
-<div ng-attr="{ 'attribute-name': scopeReference }" special-attribute="Hello gurls"></div>
+<div ng-attr="{ 'special-attribute': $ctrl.attrValue }" special-attribute="Hello gurls"></div>
 ```
 
 ## Installation
