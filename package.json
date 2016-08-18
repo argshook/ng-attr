@@ -1,0 +1,32 @@
+{
+  "name": "ng-attr",
+  "version": "0.0.1",
+  "description": "Directive for Angular 1.x for dynamic element attributes",
+  "main": "src/ng-attr.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/argshook/ng-attr"
+  },
+  "keywords": [
+    "angular",
+    "ngAttr",
+    "directive",
+    "attributes",
+    "dynamic",
+    "element"
+  ],
+  "author": "Arijus (argshook@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.2",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "ng-directive-compiler-helper": "^1.0.0"
+  }
+}
